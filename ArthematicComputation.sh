@@ -8,3 +8,5 @@ operation2=$(( $number1*$number2+$number3 ))
 echo $operation2
 operation3=$(( $number3+$number1/$number2 ))
 echo $operation3
+operation4=$(( $number1%$number2+$number3 ))
+echo $operation4
