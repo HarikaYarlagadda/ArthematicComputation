@@ -28,7 +28,7 @@ for (( i=0 ; i < ${#array[@]}; i++ ))
 do
     for (( j=0 ; j < ${#array[@]}; j++ )) 
     do
-      if [[ ${array[$j]} -lt  ${array[$i]} ]]
+      if [[ ${array[$j]} -gt  ${array[$i]} ]]
       then
         tmp=${array[$i]}
         array[$i]=${array[$j]}
