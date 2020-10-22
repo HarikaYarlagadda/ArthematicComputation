@@ -10,3 +10,10 @@ operation3=$(( $number3+$number1/$number2 ))
 echo $operation3
 operation4=$(( $number1%$number2+$number3 ))
 echo $operation4
+
+declare -A operations
+operations[1]=$operation1
+operations[2]=$operation2
+operations[3]=$operation3
+operations[4]=$operation4
+echo ${operations[@]}
