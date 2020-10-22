@@ -6,3 +6,5 @@ operation1=$(( $number1+$number2*$number3 ))
 echo $operation1
 operation2=$(( $number1*$number2+$number3 ))
 echo $operation2
+operation3=$(( $number3+$number1/$number2 ))
+echo $operation3
